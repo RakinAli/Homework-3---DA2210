@@ -62,22 +62,28 @@ This section discusses Zip's law and applies it to a dataset.
 The dataset chosen was a word frequency list as it was easier to work with and I simply wanted to complete this assignment fast. The code can be viewed \href{https://github.com/RakinAli/Homework-3---DA2210/tree/main}{here}
 \newpage
 
-\subsection{B and C: ORder the dataset and use linear regression}
+\subsection{B and C: Order the dataset and use linear regression}
+I would need to make my graphs tiny for them to fit under this subsection. View figure \ref{fig:word-freq} to see how word's rank on the x-axis and their frequency in the y-axis would fit. Thereafter view figure \ref{fig:word-freq-log} to see well Zipf's law holds and the equation for the powerlaw. 
 
 \begin{figure}
     \centering
-    \label{fig:word-freq}
     \includegraphics[width=0.8\textwidth]{wordfreq.png}
     \caption{A plot on word frequency list and their rank.}
+    \label{fig:word-freq}
 \end{figure}
 
 \begin{figure}[h]
     \centering
-    \label{fig:word-freq-log}
     \includegraphics[width=0.8\textwidth]{graph.png}
     \caption{A log plot on word frequency list and their rank.}
-    \label{fig:my_label}
+    \label{fig:word-freq-log}
 \end{figure}
+
+\subsection{Discussion: Zipf's law}
+The equation for wordfrequency is shown in figure \ref{fig:word-freq-log}. It had a strong $R^2$ value meaning it was somewhat accurate. In Zipfs' equation $Cn^{-a}$ where a is roughly 1,5642 and c is constant near x in the figure \ref{fig:word-freq-log}.\\
+Regarding the question \textit{what type of scientific statement is Zipf's law}: It is a statistical regularity or an empirical observation that holds in many cases however not a scientific hypothesis, conjecture or mathematical theorem. It falls more into statistical or empirical law that is used to strengthen or weaken hypotheses or observations however in itself, it isn't a theorem. The law does not propose explanations, it simply describes a pattern in data without making any claims or reasoning behind why the pattern exists. Hypothesis and conjectures are statements that propose explanations for the patterns. This is not even a mathematical theorem as they are rigorously proven statements based on axioms and mathematical logic. \\
+A good example where Zipf's law holds is Moore's law. Moore's law is simply a pattern observed in how many transistors there are in a CPU, not a scientific claim or hypothesis that the amount of transistors will double after every 5 years. 
+
 
 
 
